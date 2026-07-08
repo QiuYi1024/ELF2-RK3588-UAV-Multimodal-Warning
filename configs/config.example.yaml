@@ -1,0 +1,18 @@
+project:
+  name: RK3588_UAV_Multimodal_Warning
+  platform: Forlinx ELF2 / RK3588
+  data_root: /home/elf/AntiUAV_Data
+camera:
+  ip: CAMERA_IP
+  username: YOUR_USERNAME
+  password: YOUR_PASSWORD
+  rtsp_url: RTSP_URL_HERE
+vision:
+  model: models/best_uav_headless_i8.rknn
+audio:
+  model: models/drone_yamnet.rknn
+rid900:
+  demo_serial: DEMO_SERIAL_001
+  demo_devices:
+    - DEMO_DEVICE_001
+    - DEMO_DEVICE_002

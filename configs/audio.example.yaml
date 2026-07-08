@@ -1,0 +1,5 @@
+audio:
+  device: hw:CARD=ArrayUAC10,DEV=0
+  sample_rate: 16000
+  channels: 6
+  model: models/drone_yamnet.rknn

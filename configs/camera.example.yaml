@@ -1,0 +1,6 @@
+camera:
+  ip: CAMERA_IP
+  username: YOUR_USERNAME
+  password: YOUR_PASSWORD
+  rtsp_url: RTSP_URL_HERE
+  ptz_control: true

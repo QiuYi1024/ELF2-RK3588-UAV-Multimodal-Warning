@@ -1,0 +1,10 @@
+{
+  "session_id": "DEMO_SESSION_001",
+  "platform": "ELF2_RK3588",
+  "data_root": "/home/elf/AntiUAV_Data",
+  "rid_serial": "DEMO_SERIAL_001",
+  "rid_device": "DEMO_DEVICE_001",
+  "longitude": 0.000000,
+  "latitude": 0.000000,
+  "note": "demo data only, not a real field test"
+}

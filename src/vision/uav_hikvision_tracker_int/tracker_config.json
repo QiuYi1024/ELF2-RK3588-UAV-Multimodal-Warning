@@ -1,0 +1,22 @@
+{
+  "high_thresh": 0.55,
+  "low_thresh": 0.08,
+  "match_thresh": 0.35,
+  "track_buffer": 30,
+  "confirm_frames": 3,
+  "drone_class_id": 0,
+  "sign_pan": -1.0,
+  "sign_tilt": -1.0,
+  "k_pan": 1.0,
+  "k_tilt": 1.0,
+  "fov_table": [
+    {"zoom": 1.0, "hfov": 60.000, "vfov": 36.000},
+    {"zoom": 1.2, "hfov": 52.740, "vfov": 32.327},
+    {"zoom": 2.4, "hfov": 28.300, "vfov": 17.000},
+    {"zoom": 5.0, "hfov": 14.642, "vfov": 8.582},
+    {"zoom": 10.0, "hfov": 7.564, "vfov": 4.419},
+    {"zoom": 13.1, "hfov": 5.852, "vfov": 3.445},
+    {"zoom": 20.0, "hfov": 4.057, "vfov": 2.419},
+    {"zoom": 37.0, "hfov": 2.478, "vfov": 1.261}
+  ]
+}

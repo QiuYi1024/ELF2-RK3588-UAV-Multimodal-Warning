@@ -1,0 +1,8 @@
+numpy
+opencv-python
+PyYAML
+pyserial
+sounddevice
+scipy
+requests
+rknn-toolkit-lite2

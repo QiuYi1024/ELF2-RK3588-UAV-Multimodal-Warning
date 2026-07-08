@@ -1,0 +1,68 @@
+array:
+  name: smd16_usb
+  sample_rate: 16000
+  num_mics: 16
+  ref_channel: 0
+  geometry: circular
+  radius_m: 0.08
+  raw_channels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+  loopback_channels: [16, 17]
+
+preprocess:
+  remove_dc: true
+  rms_normalize: true
+  highpass_hz: 100
+
+beamforming:
+  enable: true
+  doa_source: srp_phat
+  doa_fallback: none
+  doa_method: srp_phat
+  beamformer: frequency_delay_sum
+  doa_freq_min: 500
+  doa_freq_max: 5500
+  angle_step_deg: 5
+  doa_median_window: 5
+  doa_ema_alpha: 0.35
+  doa_jump_reject_deg: 35.0
+  doa_rebase_window: 3
+  doa_rebase_min_count: 2
+  doa_rebase_max_std_deg: 12.0
+  doa_stable_window: 3
+  doa_stable_max_std_deg: 18.0
+  doa_hold_sec: 0.8
+  update_interval_sec: 1.0
+  enable_post_filter: false
+  post_filter_strength: 0.2
+
+detector:
+  model_path: ./drone_yamnet.rknn
+  threshold_percent: 30.0
+  guidance_threshold_percent: 20.0
+  guidance_hold_sec: 1.8
+  guidance_window_count: 3
+  guidance_min_windows: 2
+  guidance_min_snr_db: 1.2
+  guidance_weak_min_snr_db: 0.8
+  guidance_min_doa_confidence: 0.65
+  guidance_require_stable_doa: true
+  guidance_max_angle_std_deg: 18.0
+  guidance_max_jump_deg: 42.0
+  window_sec: 1.0
+  hop_sec: 0.5
+  fusion: max
+
+experiment:
+  experiment_id: ""
+  scene_type: ""
+  location: ""
+  distance_m: -1
+  drone_model: ""
+  flight_mode: ""
+  noise_type: ""
+  background_noise: ""
+  method_label: only_acoustic_yamnet_beam
+  module_label: only_acoustic
+  target_present: ""
+  trial_id: ""
+  power_w: -1

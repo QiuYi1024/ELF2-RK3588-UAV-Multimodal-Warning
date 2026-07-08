@@ -1,0 +1,6 @@
+ptz:
+  camera_ip: CAMERA_IP
+  username: YOUR_USERNAME
+  password: YOUR_PASSWORD
+  auto_tracking: false
+  auto_zoom: false

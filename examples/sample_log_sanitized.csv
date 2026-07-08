@@ -1,0 +1,3 @@
+timestamp,module,event,value
+2026-07-06T00:00:00Z,vision,demo_detection,0.91
+2026-07-06T00:00:01Z,rid900,demo_device,DEMO_DEVICE_001

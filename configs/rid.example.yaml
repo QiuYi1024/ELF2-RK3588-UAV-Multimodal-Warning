@@ -1,0 +1,9 @@
+rid900:
+  enabled: false
+  serial_device: auto
+  baud: 115200
+  demo_serial: DEMO_SERIAL_001
+  demo_devices:
+    - DEMO_DEVICE_001
+    - DEMO_DEVICE_002
+  real_device_id: YOUR_TOKEN_REMOVED
