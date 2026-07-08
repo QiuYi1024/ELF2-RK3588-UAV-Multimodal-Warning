@@ -36,10 +36,10 @@ src/ui/            Qt 主界面、RadarWidget、VideoWidget、DataManager 相关
 src/data_manager/  session、manifest、summary 和数据目录管理逻辑
 models/            RKNN 模型
 examples/          脱敏 demo 样例
-docs/design/       真实脱敏设计文件待补
-docs/report/       脱敏作品设计报告待补
-demo/              脱敏演示视频或链接待补
-photos/            开发板和系统实物照片待补
+docs/design/       系统架构、硬件连接、软件流程等设计说明与脱敏图示
+docs/report/       脱敏版作品设计报告
+demo/              公开演示预览视频
+photos/            脱敏后的开发板和系统实物照片
 ```
 
 ## 快速启动
@@ -64,9 +64,9 @@ bash scripts/run_all.sh
 
 本仓库不包含真实学校信息、指导老师信息、个人身份信息、设备密码、访问令牌、完整原始数据集和未脱敏测试数据。RID 样例使用 `DEMO_SERIAL_001`、`DEMO_DEVICE_001`、`DEMO_DEVICE_002` 和虚构 demo 坐标。
 
-## 后续待补材料
+## 公开材料说明
 
-`docs/design`、`docs/report`、`demo`、`photos` 仅为开源仓库预留目录。当前未生成假报告、假视频、假图片或假照片，后续由作者补充真实且脱敏的材料。
+本仓库已包含主体任务代码、配置模板、运行脚本、RKNN 模型说明、脱敏版技术报告、演示预览视频和脱敏实物照片。竞赛平台正式提交材料以官网上传版本为准；授权书、学校 Logo、官网完整视频和官方重要代码 RAR 不放入公开仓库。
 
 ## 开源协议
 
